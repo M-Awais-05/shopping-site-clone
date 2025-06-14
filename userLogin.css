@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Root desighn applied on whole page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    color: #524d4d;
+}
+.container {
+    width: 100%;
+    position: relative;
+}
+
+/* Header design */
+/* first text style/ */
+.first-text {
+    background: gray;
+    width: 100%;
+}
+
+.first-text p {
+    text-align: center;
+    color: #c2bfbf;
+    font-size: 12px;
+    padding: 5px;
+    padding: 5px;
+}
+/* Login Design */
+.welcome{
+    padding: 50px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #524d4d; */
+    /* margin-left: 10%; */
+}
+.form img{
+    width: 300px;
+    height: 250px;
+    margin-left: 10%;
+}
+/* ===== Login Form Styling ===== */
+.login-section {
+  width: 100%;
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background:lightslategray;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* Form Groups */
+.login-form .form-group {
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #414040;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.login-form input:focus {
+  border-color: #007bff;
+}
+
+/* Button Styling */
+.login-form button {
+  padding: 12px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #555;
+}
+
+/* Register Link */
+.register-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.register-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+/* Some Products on Login page */
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3%;
+}
+.ar-text {
+    display: flex;
+    justify-content: center;
+    color: #2a2828;
+    font-size: 25px;
+    margin-bottom: 2%;
+}
+.ar-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 60px;
+    background: lightslategray;
+    border-radius: 20px 20px 20px 20px;
+    padding: 50px;
+}
+.ar-image img {
+    width: 17%;
+    height: 250px;
+    box-shadow: 6px 10px 10px 6px #2a2828;
+}
+
+/*  Foooter Design */
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 50px;
+    overflow: hidden;
+    color:#524d4d;
+    margin-top: 10px;
+    background-color: #c2bfbf;
+}
+footer .ft-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.ft-cards img{
+    width: 120px;
+    height: 120px;
+}
+.ft-cards .socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+}
+.ft-cards .socials span i{
+    font-size: 30px;
+    color: #2a2828;
+}
+.ft-cards .currancy{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.ft-cards .currancy span img{
+    width: 30px;
+    height: 30px;
+}
