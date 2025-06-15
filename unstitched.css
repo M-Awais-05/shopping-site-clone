@@ -130,6 +130,7 @@
 .intro-text h1{
     font-size: 50px;
 }
+
 /* Buttons */
 .pro-buttons{
     display: flex;
@@ -147,6 +148,88 @@
     border-radius: 20px;
     background: #d3d3cf;
 
+}
+/* shop types and arrivals design */
+.row-2 {
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    /* background: red; */
+    margin-top: 4%;
+}
+
+.sect {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 16px;
+    flex-direction: column;
+}
+
+.col-1 {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.line-wrapper {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.line-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background-color: rgb(52, 50, 50);
+    z-index: 0;
+}
+
+.line-wrapper h2 {
+    display: inline-block;
+    background: rgb(52, 50, 50);
+    color: #e7e0e0;
+    padding: 10px 60px;
+    box-shadow: 7px 7px #c2bfbf;
+    font-weight: 500;
+    font-size: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.col-img {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.col-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border: 17px solid rgb(52, 50, 50);
+    border-radius: 50%;
+    background: #524d4d;
+}
+
+.circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 7px;
+    align-items: center;
+    color: #2a2828;
+}
+
+.circle p {
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* Categories style starts here */
