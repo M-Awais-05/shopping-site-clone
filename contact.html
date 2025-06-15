@@ -1,12 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact US</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.2.0/css/line.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+    <div class="container">
+        <!-- Header section starts -->
+        <header>
+            <div class="first-text">
+                <p>Avail free shiping National Worldwide for order above PKR 5000!</p>
+            </div>
+            <!-- Logo and Buttons -->
+            <div class="row">
+                <div class="col">
+                    <div class="image">
+                        <img src="assets/logo.png" alt="This is my logo">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="buttons">
+                        <span><i class="uil uil-search"></i></span>
+                        <a href="userLogin.html" style="text-decoration: none; color: black;"><span><i
+                                    class="uil uil-user"></i></span></a>
+                        <span><i class="uil uil-bag"></i></span>
+                    </div>
+                </div>
+            </div>
+            <!-- Navbar desigh -->
+            <nav class="nav-bar">
+                <div class="nav-list">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="stitched.html">Stitched</a></li>
+                        <li><a href="unstitched.html">Unstitched</a></li>
+                        <li><a href="sales.html">Top sales</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="con-row">
+                <!-- Left Column: Logo -->
+                <div class="con-col logo-col">
+                    <img src="assets/logo.png" alt="logo" class="logo-img">
+                </div>
+
+                <!-- Right Column: Contact Form -->
+                <div class="con-col form-col">
+                    <form class="contact-form">
+                        <h2>Contact Us</h2>
+                        <input type="text" class="input-field" placeholder="Full Name" required>
+                        <input type="email" class="input-field" placeholder="Email" required>
+                        <textarea class="input-field" placeholder="Message" required></textarea>
+                        <button type="submit" class="btn">Send</button>
+                        <div class="contact-social-row">
+                            <button class="contact-label">Contact Us BY:</button>
+                            <div class="social-icons">
+                                <span><i class="bi bi-facebook"></i></span>
+                                <span><i class="bi bi-twitter-x"></i></span>
+                                <span><i class="bi bi-instagram"></i></span>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </main>
+        <!-- Footer Starts here -->
+        <footer>
+            <div class="ft-cards">
+                <img src="assets/logo.png" alt="logo">
+            </div>
+            <div class="ft-cards">
+                <h3>CUSTOMER SERVICE</h3>
+                <P>Contact Us</P>
+                <P>Delivery & Order</P>
+                <P>Return & Exchanges</P>
+                <P>Terms & Conditions</P>
+                <P>Privacy Policy</P>
+                <P>Trac My Order</P>
+                <P>Payment Guide</P>
+            </div>
+            <div class="ft-cards">
+                <h3>FOR ASSISTANCE</h3>
+                <p>Whatsapp: 0322-6773534</p>
+                <p>Email: fashion@gmail.com</p>
+                <hr style="margin-top: 5%; height: 5px; background: rgb(39, 38, 38); width: 70%;">
+                <div class="socials">
+                    <span><i class="uil uil-facebook"></i></span>
+                    <span><i class="uil uil-github"></i></span>
+                    <span><i class="uil uil-instagram"></i></span>
+                    <span><i class="uil uil-youtube"></i></span>
+                </div>
+            </div>
+            <div class="ft-cards">
+                <h3>CURRANCY</h3>
+                <div class="currancy">
+                    <span><img src="assets/pakistan.png" alt="pakistan"></span>
+                    <span>PKR</span>
+                </div>
+                <h3>COMPANY</h3>
+                <p>About US</p>
+                <p>Careers</p>
+                <p>Store Locator</p>
+                <p>Store Address</p>
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>
